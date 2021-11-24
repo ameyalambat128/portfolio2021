@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
-import Work from "./components/work/Work";
+import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import "./app.scss";
 
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <div className="sections">
         <Intro />
-        <Work />
+        <Projects />
         <Contact />
       </div>
     </div>
