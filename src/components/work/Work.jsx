@@ -1,7 +1,11 @@
 import "./work.scss";
 
 const work = () => {
-  return <div></div>;
+  return (
+    <div className="work" id="work">
+      This is the work part
+    </div>
+  );
 };
 
 export default work;
