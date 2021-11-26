@@ -22,7 +22,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="right">
-        <BackgroundAnimation className="ani" />
+        <BackgroundAnimation />
       </div>
     </div>
   );
