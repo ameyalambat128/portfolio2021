@@ -1,3 +1,9 @@
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
 export const projects = [
   {
     title: "Todo-List",
@@ -71,4 +77,11 @@ export const TimeLineData = [
   { year: 2019, text: "Founded JavaScript Mastery" },
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
+];
+
+export const ContactInfo = [
+  { icon: <AiFillGithub />, name: "GitHub" },
+  { icon: <AiFillLinkedin />, name: "LinkedIn" },
+  { icon: <AiFillTwitterSquare />, name: "Twitter" },
+  { icon: <AiFillInstagram />, name: "Instagram" },
 ];

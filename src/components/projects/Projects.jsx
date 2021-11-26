@@ -1,11 +1,12 @@
 import "./projects.scss";
-
 import { projects } from "../../constants/constants";
+import Divider from "../style/Divider";
 
 const Projects = () => {
   return (
     <div className="projects" id="projects">
-      <h1 className="h1">Projects</h1>
+      <div className="h1">Projects</div>
+      <Divider />
       <div className="grid">
         {projects.map(({ image, title, description, tags }) => (
           <div className="blogCard">
