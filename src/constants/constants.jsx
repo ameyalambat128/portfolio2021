@@ -80,8 +80,24 @@ export const TimeLineData = [
 ];
 
 export const ContactInfo = [
-  { icon: <AiFillGithub />, name: "GitHub" },
-  { icon: <AiFillLinkedin />, name: "LinkedIn" },
-  { icon: <AiFillTwitterSquare />, name: "Twitter" },
-  { icon: <AiFillInstagram />, name: "Instagram" },
+  {
+    icon: <AiFillGithub />,
+    name: "GitHub",
+    link: "https://github.com/ameyalambat128",
+  },
+  {
+    icon: <AiFillLinkedin />,
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/ameyalambat/",
+  },
+  {
+    icon: <AiFillTwitterSquare />,
+    name: "Twitter",
+    link: "https://twitter.com/LambatAmeya",
+  },
+  {
+    icon: <AiFillInstagram />,
+    name: "Instagram",
+    link: "https://www.instagram.com/ameyalambat128/",
+  },
 ];
