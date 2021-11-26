@@ -55,7 +55,7 @@ export const projects2 = [
     title: "Speed Climbing Timer",
     description:
       "Co-created a speed climbing timer with my father which is successfully being used in my training center. Raspberry Pi is used for hosting Node-RED and MQTT. ESP8266 and flex sensors are used for wireless communication.",
-    image: "/images/4.png",
+    image: "/images/SpeedClimbing-Timer.png",
     tags: ["Raspberry PI", "Node-RED", "MQTT", "ESP8266"],
     source: "https://google.com",
     visit: "https://google.com",
