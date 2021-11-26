@@ -1,4 +1,5 @@
 import "./intro.scss";
+import BackgroundAnimation from ".././BackgrooundAnimation/BackgroundAnimation";
 
 const Intro = () => {
   return (
@@ -17,10 +18,12 @@ const Intro = () => {
               <div className="title-item">Sport Climber</div>
             </div>
           </div>
-          <div className="desc">*Write about yourself here*</div>
+          <div className="desc">I'm a freshman studying Computer Science!</div>
         </div>
       </div>
-      <div className="right">right</div>
+      <div className="right">
+        <BackgroundAnimation className="ani" />
+      </div>
     </div>
   );
 };
