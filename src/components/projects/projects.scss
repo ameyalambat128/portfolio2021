@@ -1,12 +1,17 @@
 .projects {
-  background-color: #a8d5baff;
+  //background-color: #a8d5baff;
+  //background-color: #000;
+  background: linear-gradient(to left, #000, rgb(17, 17, 17));
   display: flex;
   flex-direction: column;
   align-items: center;
   .h1 {
-    padding-top: 50px;
+    padding: 20px 20px;
     height: 70px;
     font-size: 50px;
+    font-weight: 700;
+    color: #fafafa;
+    //color: linear-gradient(to bottom right, #fafafa, rgb(238, 195, 170));
   }
   .grid {
     display: grid;
@@ -17,10 +22,11 @@
     column-gap: 5rem;
     row-gap: 3rem;
     .blogCard {
-      padding: 10px;
-      background-color: #8bbee8ff;
+      padding: 20px;
+      background: linear-gradient(to top left, #8bbee8ff, rgb(170, 238, 215));
+      background-color: rgb(79, 126, 165);
       border-radius: 10px;
-      box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+      box-shadow: 3px 3px 20px rgba(87, 87, 87, 0.5);
       text-align: center;
       width: 400px;
       .image {
@@ -35,22 +41,22 @@
         font-size: 30px;
         letter-spacing: 2px;
         //color: #9cc9e3;
-        padding: 0.5rem 0;
+        padding: 30px 0 5px 0;
       }
       .hr {
         width: 50px;
         height: 3px;
-        margin: 10px auto;
+        margin: 5px auto;
         border: 0;
         background: #7c6b15;
       }
       .desc {
         width: 80%;
-        padding: 0 50px;
+        padding: 0 40px;
         //color: #e4e6e7;
         font-style: 2rem;
         line-height: 24px;
-        text-align: justify;
+        text-align: center;
       }
       .tags {
         display: flex;

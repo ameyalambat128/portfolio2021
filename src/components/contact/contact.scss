@@ -1,3 +1,48 @@
-.contacts {
-  background-color: aqua;
+.contact {
+  //background-color: #000;
+  background: linear-gradient(to left, #000, rgb(17, 17, 17));
+
+  .bottom-contacts {
+    margin-top: 615px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-size: 20px;
+      font-weight: 300;
+      color: rgb(145, 144, 144);
+      padding-bottom: 20px;
+    }
+    .copyright {
+      font-size: 12px;
+      font-weight: 300;
+      color: rgb(145, 144, 144);
+      padding-top: 20px;
+    }
+    .details-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 2rem;
+
+      .details {
+        color: rgb(145, 144, 144);
+        font-size: 18px;
+        font-weight: 300;
+
+        padding: 50px;
+        text-decoration: none;
+
+        .icon {
+          font-size: 20px;
+          display: flex;
+          align-items: center;
+          //margin: 50px;
+        }
+        .icon:hover {
+          filter: brightness(1.5);
+        }
+      }
+    }
+  }
 }
