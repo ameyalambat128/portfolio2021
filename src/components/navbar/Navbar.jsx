@@ -12,6 +12,12 @@ const Navbar = () => {
           </a>
         </div>
         <div className="right">
+          <a href="#intro" className="item-container">
+            <Button variant="text" className="button">
+              <BlurOn className="icon" />
+              Introduction
+            </Button>
+          </a>
           <a href="#projects" className="item-container">
             <Button variant="text" className="button">
               <BlurOn className="icon" />
