@@ -1,0 +1,66 @@
+.projects {
+  background-color: #a8d5baff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .h1 {
+    padding-top: 50px;
+    height: 70px;
+    font-size: 50px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    gap: 30px;
+    place-items: center;
+    column-gap: 5rem;
+    row-gap: 3rem;
+    .blogCard {
+      padding: 10px;
+      background-color: #8bbee8ff;
+      border-radius: 10px;
+      box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+      text-align: center;
+      width: 400px;
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: 30px;
+        letter-spacing: 2px;
+        //color: #9cc9e3;
+        padding: 0.5rem 0;
+      }
+      .hr {
+        width: 50px;
+        height: 3px;
+        margin: 10px auto;
+        border: 0;
+        background: #7c6b15;
+      }
+      .desc {
+        width: 80%;
+        padding: 0 50px;
+        //color: #e4e6e7;
+        font-style: 2rem;
+        line-height: 24px;
+        text-align: justify;
+      }
+      .tags {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        .tag {
+          font-size: 18px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
