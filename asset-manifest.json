@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6350b2b8.chunk.css",
+    "main.css": "/portfolio/static/css/main.ec144a75.chunk.css",
     "main.js": "/portfolio/static/js/main.ea695154.chunk.js",
     "main.js.map": "/portfolio/static/js/main.ea695154.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
@@ -8,7 +8,7 @@
     "static/js/2.27f838f2.chunk.js": "/portfolio/static/js/2.27f838f2.chunk.js",
     "static/js/2.27f838f2.chunk.js.map": "/portfolio/static/js/2.27f838f2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.6350b2b8.chunk.css.map": "/portfolio/static/css/main.6350b2b8.chunk.css.map",
+    "static/css/main.ec144a75.chunk.css.map": "/portfolio/static/css/main.ec144a75.chunk.css.map",
     "static/js/2.27f838f2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.27f838f2.chunk.js.LICENSE.txt",
     "static/media/AWS-AQI-API.png": "/portfolio/static/media/AWS-AQI-API.4cde1171.png",
     "static/media/Dr.App.png": "/portfolio/static/media/Dr.App.f8bb77e3.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.27f838f2.chunk.js",
-    "static/css/main.6350b2b8.chunk.css",
+    "static/css/main.ec144a75.chunk.css",
     "static/js/main.ea695154.chunk.js"
   ]
 }
