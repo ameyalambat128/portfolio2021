@@ -21,7 +21,13 @@ const Intro = () => {
               <div className="title-item">Sport Climber</div>
             </div>
           </div>
-          <div className="desc">I'm a freshman studying Computer Science!</div>
+          <div className="desc">
+            <br />
+            I'm a freshman studying Computer Science
+            <br />
+            <br />
+            and I'm a React enthusiast
+          </div>
         </div>
       </div>
       <div className="right">

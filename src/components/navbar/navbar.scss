@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .navbar {
-  height: 70px;
+  height: 8vh;
   width: 100%;
   background-color: #1f1f1f;
   color: $mainColor;
@@ -11,7 +11,7 @@
   right: 0;
   z-index: 2;
   .wrapper {
-    padding: 16px 310px;
+    padding: 2vh 14vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +23,7 @@
         font-weight: 400;
         display: center;
         color: #fafafa;
-        padding-right: 20px;
+        padding-right: 2vh;
       }
       .name {
         font-size: 30px;
