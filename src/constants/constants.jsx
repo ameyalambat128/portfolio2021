@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterSquare,
 } from "react-icons/ai";
+
 export const projects = [
   {
     title: "Todo-List",
@@ -38,6 +39,16 @@ export const projects = [
 ];
 export const projects2 = [
   {
+    title: "Uber-Clone",
+    description:
+      "Created an Uber clone using React Native, Redux, Tailwind CSS, and React Navigation for the routing and navigation between pages. Used different APIs like Google Autocomplete and Directions API for the map.",
+    image: require("../components/assets/images/uber-clone.png").default,
+    tags: ["Angular", "IndexedDB"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 3,
+  },
+  {
     title: "Dr. App",
     description:
       "Working on a Progressive Web App (PWA) developed for the Doctors to manage their OPD data using Angular 11 and Indexed DB for storing offline data.",
@@ -47,6 +58,18 @@ export const projects2 = [
     visit: "https://google.com",
     id: 3,
   },
+  {
+    title: "Netflix-Clone",
+    description:
+      "Created a Netflix clone using React and Redux using Axios to fetch information from the API of TMBD.",
+    image: require("../components/assets/images/netflix-clone.png").default,
+    tags: ["React", "TailwindCSS", "Redux", "Axios"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 3,
+  },
+];
+export const projects3 = [
   {
     title: "Password Generator",
     description:
@@ -69,6 +92,18 @@ export const projects2 = [
     visit: "https://google.com",
     id: 3,
   },
+
+  // {
+  //   title: "Spotify-Clone",
+  //   description:
+  //     "Created a Spotify clone using Next.js and Tailwind CSS and using information from Spotify for developers.",
+  //   image: require("../components/assets/images/SpeedClimbing-Timer.png")
+  //     .default,
+  //   tags: ["Raspberry PI", "Node-RED", "MQTT", "ESP8266"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 3,
+  // },
 ];
 
 export const TimeLineData = [
