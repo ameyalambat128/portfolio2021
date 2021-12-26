@@ -1,6 +1,7 @@
 import "./projects.scss";
 import { projects } from "../../constants/constants";
 import Divider from "../style/Divider";
+import Button from "@mui/material/Button";
 
 const Projects = () => {
   return (
@@ -8,7 +9,7 @@ const Projects = () => {
       <div className="h1">Projects</div>
       <Divider />
       <div className="grid">
-        {projects.map(({ image, title, description, tags }) => (
+        {projects.map(({ image, title, description, tags, source }) => (
           <div className="blogCard">
             <img src={image} alt="img" className="image" />
             <br />
@@ -17,6 +18,18 @@ const Projects = () => {
             <div className="hr" />
             <br />
             <div className="desc">{description}</div>
+            <br />
+            <a
+              href={source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="source"
+            >
+              <Button variant="outlined" className="button">
+                Learn more..
+              </Button>
+            </a>
+            <br />
             <br />
             <h4>Technologies</h4>
             <div className="tags">
