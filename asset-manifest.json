@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7298eaeb.chunk.css",
-    "main.js": "/portfolio/static/js/main.d03f415e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d03f415e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3115e12f.chunk.css",
+    "main.js": "/portfolio/static/js/main.c850f123.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c850f123.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
-    "static/js/2.d4698ca9.chunk.js": "/portfolio/static/js/2.d4698ca9.chunk.js",
-    "static/js/2.d4698ca9.chunk.js.map": "/portfolio/static/js/2.d4698ca9.chunk.js.map",
+    "static/js/2.339d53d9.chunk.js": "/portfolio/static/js/2.339d53d9.chunk.js",
+    "static/js/2.339d53d9.chunk.js.map": "/portfolio/static/js/2.339d53d9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.7298eaeb.chunk.css.map": "/portfolio/static/css/main.7298eaeb.chunk.css.map",
-    "static/js/2.d4698ca9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d4698ca9.chunk.js.LICENSE.txt",
+    "static/css/main.3115e12f.chunk.css.map": "/portfolio/static/css/main.3115e12f.chunk.css.map",
+    "static/js/2.339d53d9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.339d53d9.chunk.js.LICENSE.txt",
     "static/media/AWS-AQI-API.png": "/portfolio/static/media/AWS-AQI-API.4cde1171.png",
     "static/media/Dr.App.png": "/portfolio/static/media/Dr.App.f8bb77e3.png",
     "static/media/Notetaking-App.png": "/portfolio/static/media/Notetaking-App.06c13a52.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
-    "static/js/2.d4698ca9.chunk.js",
-    "static/css/main.7298eaeb.chunk.css",
-    "static/js/main.d03f415e.chunk.js"
+    "static/js/2.339d53d9.chunk.js",
+    "static/css/main.3115e12f.chunk.css",
+    "static/js/main.c850f123.chunk.js"
   ]
 }
