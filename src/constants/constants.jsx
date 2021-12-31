@@ -7,12 +7,12 @@ import {
 
 export const projects = [
   {
-    title: "Todo-List",
+    title: "Median",
     description:
-      "Created a to-do list app using React Native and Expo for a to-do list app that allows one to add and complete tasks to keep up with their schedule.",
-    image: require("../components/assets/images/Todo-List.png").default,
-    tags: ["React Native", "Expo"],
-    source: "https://github.com/ameyalambat128/Todo-List",
+      "Created a decentralized web chat application using Nextjs, Moralis and TailwindCSS. Users can connect to this using their Ethereum wallet.",
+    image: require("../components/assets/images/median.png").default,
+    tags: ["Nextjs", "Tailwind CSS", "Moralis"],
+    source: "https://github.com/ameyalambat128/median",
     visit: "https://google.com",
     id: 0,
   },
@@ -93,18 +93,16 @@ export const projects3 = [
     visit: "https://google.com",
     id: 3,
   },
-
-  // {
-  //   title: "Spotify-Clone",
-  //   description:
-  //     "Created a Spotify clone using Next.js and Tailwind CSS and using information from Spotify for developers.",
-  //   image: require("../components/assets/images/SpeedClimbing-Timer.png")
-  //     .default,
-  //   tags: ["Raspberry PI", "Node-RED", "MQTT", "ESP8266"],
-  //   source: "https://google.com",
-  //   visit: "https://google.com",
-  //   id: 3,
-  // },
+  {
+    title: "Todo-List",
+    description:
+      "Created a to-do list app using React Native and Expo for a to-do list app that allows one to add and complete tasks to keep up with their schedule.",
+    image: require("../components/assets/images/Todo-List.png").default,
+    tags: ["React Native", "Expo"],
+    source: "https://github.com/ameyalambat128/Todo-List",
+    visit: "https://google.com",
+    id: 0,
+  },
 ];
 
 export const TimeLineData = [
