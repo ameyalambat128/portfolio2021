@@ -118,20 +118,24 @@ export const ContactInfo = [
     icon: <AiFillGithub />,
     name: "GitHub",
     link: "https://github.com/ameyalambat128",
+    id: 0,
   },
   {
     icon: <AiFillLinkedin />,
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/ameyalambat/",
+    id: 1,
   },
   {
     icon: <AiFillTwitterSquare />,
     name: "Twitter",
     link: "https://twitter.com/LambatAmeya",
+    id: 2,
   },
   {
     icon: <AiFillInstagram />,
     name: "Instagram",
     link: "https://www.instagram.com/ameyalambat128/",
+    id: 3,
   },
 ];

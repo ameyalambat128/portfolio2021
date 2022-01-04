@@ -14,14 +14,14 @@ const Contact = () => {
           Ameya Lambat
         </div>
         <div className="details-wrapper">
-          {ContactInfo.map(({ icon, name, link }) => (
+          {ContactInfo.map(({ icon, name, link, id }) => (
             <a
               href={link}
               target="_blank"
               rel="noopener noreferrer"
               className="details"
             >
-              <div className="icon">
+              <div className="icon" key={id}>
                 {icon}
                 {name}
               </div>
